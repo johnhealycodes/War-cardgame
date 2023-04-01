@@ -59,6 +59,7 @@ function drawCard(){
         document.querySelector('#result').innerText = `You Win`
         document.querySelector('div').innerHTML = ``
       } else {
+        document.querySelector('#result').innerText = `WAR!`
         document.querySelector('div').innerHTML = `<button id="WAR">WAR</button>`
         document.querySelector('#WAR').addEventListener('click', war)
     }

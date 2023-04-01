@@ -8,42 +8,64 @@
 		<title>Card Game</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
-		<h1>Card Game</h1>
-
-		<button id="newGame">New Game</button>
-		<h4 id="result"></h4>
-
-		<h2>Computer</h2>
+		<header>
+			<h1>Let's play War!</h1>
+			<button id="newGame">New Game</button>
+		</header>
+		
 		<!-- <h3>Computer Score</h3>
-		<h4 id="computerScore"></h4> -->
-		<img id="player1" src="" alt="">
-		<img id="p1war1" src="" alt="">
-		<img id="p1war2" src="" alt="">
-		<img id="p1war3" src="" alt="">
+		<h4 id="computerScore"></h4> --> 
+		<section class="mainSection">
+			<section class="player">
+				<img id="player1" src="" alt="">
+				<h2>Computer</h2>
+			</section>
+
+			<section class="war">
+				<img id="p1war1" src="" alt="">
+				<img id="p1war2" src="" alt="">
+				<img id="p1war3" src="" alt="">
+			</section>
+				
+				
+			<h4 id="result"></h4>
+			<button id="play">DRAW</button>
+			<div>
+			</div>
+
+			<!-- <h3>Your Score</h3>
+			<h4 id="playerScore"></h4> -->
+			<section class="player">
+				<img id="player2" src="" alt="">
+				<h2>You</h2>
+			</section>
+
+			<section class="war">
+				<img id="p2war1" src="" alt="">
+				<img id="p2war2" src="" alt="">
+				<img id="p2war3" src="" alt="">
+			</section>
 
 
-		<button id="play">DRAW</button>
-		<div>
-			<h4></h4>
-		</div>
+		</section>
 
-		<h2>You</h2>
-		<!-- <h3>Your Score</h3>
-		<h4 id="playerScore"></h4> -->
-		<img id="player2" src="" alt="">
-		<img id="p2war1" src="" alt="">
-		<img id="p2war2" src="" alt="">
-		<img id="p2war3" src="" alt="">
-
-
-		<h3></h3>
-
-
+		<footer>
+			<ul class="icons">
+				<li><a href="https://twitter.com/JohnHealyCodes" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href="https://github.com/johnhealycodes" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/jhealycodes/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+			</ul>
+			<div class="tagline">
+				<p id="tag">Site by: JohnHealyCodes</p>
+			</div>
+		</footer>
+		<script src="https://kit.fontawesome.com/2c75b41efd.js" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
