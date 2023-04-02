@@ -107,9 +107,11 @@ function war(){
     if (computerValue > playerValue){
       // document.querySelector('#computerScore').innerText = `${compScore++}` 
       document.querySelector('#result').innerText = `Computer Wins`
+      document.querySelector('div').innerHTML = ``
     } else if (computerValue < playerValue){
       // document.querySelector('#playerScore').innerText = `${playerScore++}` 
       document.querySelector('#result').innerText = `You Win`
+      document.querySelector('div').innerHTML = ``
     } else {
       document.querySelector('div').innerHTML = `<button id="WAR">WAR</button>`
       document.querySelector('#WAR').addEventListener('click', war)

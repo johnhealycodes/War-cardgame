@@ -27,3 +27,25 @@ img{
 h1 {
   font-weight: 700;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 200px;
+}
+
+button {
+  background-color: #fffdd0;
+  color: black;
+  border-radius: 20px;
+  height: 20%;
+  transition: 300ms;
+}
+
+button:hover{
+  background-color: red;
+  transition: 300ms;
+  color: white;
+}
