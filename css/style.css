@@ -5,7 +5,7 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
-  border: red 1px solid;
+  /* border: red 1px solid; */
   background-color: #35654d;
   color: white;
   font-family: 'Lora', serif;
